@@ -1,0 +1,24 @@
+body {
+	font-size: 16px;
+	color: black;
+	background:-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+	border-color: black;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
