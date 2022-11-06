@@ -1,25 +1,18 @@
-body {
-	font-size: 16px;
-	color: black;
-	background:-color: white;
-}
-
-.navbar-brand h1 {
-	color: black;
-	font-size: 2em;
-	font-weight: bold;
-	padding: 10px;
-}
-
-.navbar-brand a {
-	text-decoration: none;
+*{
+	margin: 0;
+	padding: 0;
+	
 }
 
 .navbar{
-	background-color: gray;
-	border-radius: 0;
-	border: 0;
-	border-color: black;
+border: none;
+background-color: black;
+color: #61122F;
+}
+
+body{
+	background-color: #61122F;
+	color: white;
 }
 
 .glyphicon{
@@ -29,13 +22,21 @@ body {
 
 .center{
 	width: 90%;
-	background-color: gray;
-
+	background-color: grey;
 }
 
 .container
 {
-	background-color: gray;
+	background-color: grey;
+}
+
+li {
+	text-align: center;
+}
+
+h1 > p {
+	padding: 0px 0px 30px 0px;
+	font-size: 2em;
 }
 
 .text-center{
