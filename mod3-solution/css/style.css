@@ -4,14 +4,6 @@ body {
 	background:-color: white;
 }
 
-/** HEADER **/
-#header-nav {
-	background-color: gray;
-	border-radius: 0;
-	border: 0;
-	border-color: black;
-}
-
 .navbar-brand h1 {
 	color: black;
 	font-size: 2em;
@@ -21,4 +13,43 @@ body {
 
 .navbar-brand a {
 	text-decoration: none;
+}
+
+.navbar{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+	border-color: black;
+}
+
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
+}
+
+.center{
+	width: 90%;
+	background-color: gray;
+
+}
+
+.container
+{
+	background-color: gray;
+}
+
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+
+#myNavbar ul li a {
+	color: #61122F;
+}
+
+.navbar-brand{
+font-size: 30px;	
 }
